@@ -5,11 +5,6 @@ import 'package:climaapp/services/networking.dart';
 import 'package:flutter/material.dart';
 import 'package:climaapp/services/location.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:http/http.dart' as http;
-
-import 'package:geolocator/geolocator.dart';
-
-import '../utilities/apiKeys.dart';
 
 class LoadingScreen extends StatefulWidget {
   @override

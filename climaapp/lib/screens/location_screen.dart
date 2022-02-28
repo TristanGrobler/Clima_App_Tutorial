@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:climaapp/utilities/constants.dart';
 
 class LocationScreen extends StatefulWidget {
-  LocationScreen({this.weatherData});
+  LocationScreen({required this.weatherData});
   var weatherData;
 
   @override
@@ -10,9 +10,9 @@ class LocationScreen extends StatefulWidget {
 }
 
 class _LocationScreenState extends State<LocationScreen> {
-  int id;
-  double temp;
-  String city;
+  late int id;
+  late double temp;
+  late String city;
   @override
   void initState() {
     id = widget.weatherData['weather'][0]['id'];
