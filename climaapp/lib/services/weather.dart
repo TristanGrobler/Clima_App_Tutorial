@@ -23,11 +23,11 @@ class WeatherModel {
     if (temp > 25) {
       return 'It\'s 🍦 time';
     } else if (temp > 20) {
-      return 'Time for shorts and 👕';
+      return 'Time for shorts and 👕 in';
     } else if (temp < 10) {
-      return 'You\'ll need 🧣 and 🧤';
+      return 'You\'ll need 🧣 and 🧤 in';
     } else {
-      return 'Bring a 🧥 just in case';
+      return 'Bring a 🧥 just in case in';
     }
   }
 }
